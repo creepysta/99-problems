@@ -37,9 +37,11 @@ def compress(xs):
 
 
 array = [1, 1, 2, 2, 2, 3, 4, 4, 4, 5]
+print("before:", array)
 xs = array_to_list(array)
-print(list_to_array(compress(xs)))
+print("after:", list_to_array(compress(xs)))
 
 array = [1, 2, 2, 2, 3, 4, 4, 4, 5, 5]
+print("before:", array)
 xs = array_to_list(array)
-print(list_to_array(compress(xs)))
+print("after:", list_to_array(compress(xs)))
